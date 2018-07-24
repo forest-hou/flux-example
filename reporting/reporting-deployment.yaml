@@ -18,4 +18,10 @@ spec:
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3030 # informational
+        env:
+          - name: testflux
+            valueFrom:
+              configMapKeyRef:
+                name: example-config
+                key: example.property.file
 
