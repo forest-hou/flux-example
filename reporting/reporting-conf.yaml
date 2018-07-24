@@ -6,7 +6,7 @@ metadata:
   namespace: default
 data: 
   example.property.1: hello
-  example.property.2: world
+  example.property.2: world!
   example.property.file: |-
     property.1=value-1
     property.2=value-33

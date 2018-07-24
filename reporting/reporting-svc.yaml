@@ -4,7 +4,6 @@ kind: Service
 metadata:
   name: reporting
 spec:
-  clusterIP: None
   ports:
     - name: reporting
       port: 11211
