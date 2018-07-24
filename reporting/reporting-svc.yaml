@@ -1,0 +1,13 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: reporting
+spec:
+  clusterIP: None
+  ports:
+    - name: reporting
+      port: 11211
+      targetPort: 3030
+  selector:
+    name: reporting-test
